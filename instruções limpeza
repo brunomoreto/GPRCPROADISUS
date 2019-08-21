@@ -1,0 +1,46 @@
+HRVC_ CRIADO DO 0
+
+DUMB VEM DO HRTO.
+
+
+HRVC E HRTO DOIS BANCOS DIFERENTES
+
+PLANILHAS VIRARAM O BANCO HRVC.
+
+_LIMPEZA , É SEMPRE A REPLICA DO ORIGINAL. SE FAZ TUDO NELE , DEPOIS TRANSFORMA O NOVO EM VELHO E REPLICA EM ORIGINAL.
+
+
+
+DADOS NOVOS CHEGAM
+INSEREM NOVO SCHEMA NO HRTO_LIMPEZA
+E FAZ O PROCEDIMENTO NELE.
+DEPOIS TRANSFORMA O NOVO EM VELHO E REPLICA EM ORIGINAL.
+
+
+--------------------TESTE DIA 17---------------------------
+
+CRIAr backps .sql e .backup ,, para o banco hrto_limpeza HRTO_LIMPEZA20190717
+
+em seguida..
+
+
+criar uma base nova dentro do database para receber o backup feito anteriomente.
+
+usar o restore para jogar o dados do backup para essa nova base de dados
+
+em seguida ....
+o SCHEMA dentro do banco hrto_limpezaBruno
+->   hrto sempre o mais atulizado   ele vira hrto_old_DATADALIMPEZA
+
+ O DUMB QUE VIM , VAI VIM COM O NOME HRTO E VAI SER ADICIONADO DENTRO DOS MEUS SCHEMAS DENTRO DO  MEU BANCO HRTO_LIMPEZABRUNO.
+PARA ISSO FAZER O RESTORE DO .BACKUP 
+
+
+EXECUTAR PROCEDIMENTOS
+
+
+RESUTAURAR LIMPEZA BRUNO PARA O LIMPEZA ORIGINAL
+
+
+
+
