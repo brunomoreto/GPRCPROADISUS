@@ -1,0 +1,43 @@
+v
+
+entrar psql , é sudo postgres -u -i
+  psql -h localhost -U postgres
+
+
+ssh -L 52700:localhost:5432 postgres@baleia.ufes.br
+
+
+ssh -L 80:intra.example.com:80 gw.example.com
+
+
+
+
+
+ssh -L localhost:5432:localhost:52700 baleia.ufes.br
+
+ssh -R 52700:localhost:22 baleia.ufes.br
+
+
+
+
+
+psql -h localhost -p 52700 -U postgres hrto
+
+
+psql -h baleia.ufes.br -U postgres -W    PEDIU SENHA
+
+psql -h baleia.ufes.br -U postgres -d hrto    erro
+{
+psql: não pôde conectar ao servidor: Conexão recusada
+	O servidor está executando na máquina "baleia.ufes.br" (200.137.65.93) e aceitando
+	conexões TCP/IP na porta 5432?
+}
+
+
+psql -h baleia.ufes.br -U postgres -W -p 52700
+
+psql -h baleia.ufes.br -U postgres hrto
+
+
+
+psql --host=baleia.ufes.br --port=5432 --username=postgres --password --dbname=hrto
