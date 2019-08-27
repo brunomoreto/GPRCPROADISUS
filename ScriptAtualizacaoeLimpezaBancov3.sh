@@ -35,6 +35,8 @@ psql -h localhost -U postgres -d bancoAuxLimpezaeReceberDumpNovo <  banco_new_du
 #por senha do usuario aqui
 
 
+#INICIO DOS PROCEDIMENTO E LIMPEZA.
+
 psql -h localhost -U postgres -d bancoAuxLimpezaeReceberDumpNovo
 #por senha do usuario aqui
 
