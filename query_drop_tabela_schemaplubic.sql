@@ -1,0 +1,1 @@
+DROP TABLE bancoAuxLimpezaeReceberDumpNovo.public.teste
