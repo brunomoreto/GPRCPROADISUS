@@ -1,1 +1,1 @@
-DROP TABLE bancoAuxLimpezaeReceberDumpNovo.public.teste
+DROP TABLE public.delecao;
