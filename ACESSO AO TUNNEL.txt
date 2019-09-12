@@ -1,0 +1,5 @@
+
+ACESSO AO TUNNEL UFES. MAIS NÃO CONSEGUI LISTAR OS BANCOS.
+
+
+ssh -p 52700 postgres@baleia.ufes.br  -L 5432:localhost:5432
